@@ -24,7 +24,7 @@ Follow these steps to set up the project on your computer:
 
 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/project-chronos.git
+git clone https://github.com/bhogi1718/project-chronos.git
 cd project-chronos
 ```  
 
@@ -49,11 +49,10 @@ Make sure you have Python 3.8+ installed, then run:
 pip install -r requirements.txt
 ```  
 
-Dependencies include:  
-- Django==5.2.7  
+Dependencies include: 
 - google-generativeai==0.8.5  
 - python-dotenv==1.1.1  
-- nltk, textblob, pandas, numpy, requests, and others  
+- nltk, textblob, and others  
 
 ---
 
