@@ -60,11 +60,18 @@ Dependencies include:
 To enable AI reconstruction, you need a Google Gemini API key:  
 
 1. Create a .env file in the project root  
-2. Add the following line:  
+2. Open the .env file and add your secret keys. The .gitignore file is already set up to prevent this file from being uploaded.
 ```env
-GEMINI_API_KEY="AIzaSyAygmmEvcpndjDAB5UyTlpw89Itd1ZFNag"
-GOOGLE_API_KEY="AIzaSyBZcIhDvcJikGW54L8oXuU85ODI_d8zQXw"
-SEARCH_ENGINE_ID="547575e2eee85460f"
+# Get your Gemini API key from Google AI Studio
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+
+# Get your Google API Key from the Google Cloud Console
+GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
+
+# Create a Custom Search Engine and get its ID
+# [https://programmablesearchengine.google.com/](https://programmablesearchengine.google.com/)
+SEARCH_ENGINE_ID="YOUR_SEARCH_ENGINE_ID"
+
 ```  
 3. Save the file.  
 (Make sure .env is included in .gitignore so it’s not uploaded to GitHub.)  
